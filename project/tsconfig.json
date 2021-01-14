@@ -1,0 +1,12 @@
+{
+   "compilerOptions": {
+       "allowJs": true, // 자바스크립트 @ts-check 이거랑 똑같은 상황. 
+       "target": "ES5",
+       "outDir": "./built",
+       "moduleResolution": "Node",
+       "lib": ["ES2015", "DOM", "DOM.Iterable"], // 이런 값들을 추가해주면 {} 오류 x 
+       "noImplicitAny": true
+    },
+   "include": ["./src/**/*"] // 어떤 폴더를 typescript 에 적용 할 것 이냐 
+   // 모든 파일을 대상으로 하겠다. 라는 뜻.
+}
