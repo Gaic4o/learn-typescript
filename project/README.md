@@ -46,9 +46,11 @@
 
 라이브러리 임포트 구문에서 나는 타입 에러 방식.
 
-
-
 Definitely Typed 소개.
+types 에 @ 가 들어가면 Type Definitely 이다.
+
+
+API 함수 타입 정의 안내 
 
 
 
@@ -82,6 +84,9 @@ Rules - ESLinst 어떤 규칙을 가지고 파일을 검증할 지 하는 속성
 
 rules: { prettier 
 -> 기본적 eslint 설명 그리고 왜 typescript 왜ㅑ eslint 을 먹어야 할 가?
+
+
+
 
 
 
